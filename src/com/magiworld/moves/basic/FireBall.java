@@ -6,6 +6,7 @@ public class FireBall implements BasicAttack {
 
     @Override
     public void performBasicAttack(Character attacker, Character target) {
-
+        int damages = attacker.getIntelligence();
+        target.setCurrentHealth(target.getCurrentHealth()-damages);
     }
 }
