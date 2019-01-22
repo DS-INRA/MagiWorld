@@ -9,7 +9,7 @@ public class Rage implements SpecialAttack {
      * @param target character facing the attack
      */
     @Override
-    public void performSpecialcAttack(Character attacker, Character target) {
+    public void performSpecialAttack(Character attacker, Character target) {
         int damagesEnnemy = attacker.getStrength()*2;
         int damagesSelf = attacker.getStrength()/2;
         target.setCurrentHealth(target.getCurrentHealth() - damagesEnnemy);

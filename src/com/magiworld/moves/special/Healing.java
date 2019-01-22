@@ -9,7 +9,7 @@ public class Healing implements SpecialAttack {
      * @param target unused here
      */
     @Override
-    public void performSpecialcAttack(Character attacker, Character target) {
+    public void performSpecialAttack(Character attacker, Character target) {
         int healthGain = attacker.getIntelligence()*2;
         int newHealth = attacker.getCurrentHealth()+healthGain;
         if (newHealth>attacker.getMaxHealth())

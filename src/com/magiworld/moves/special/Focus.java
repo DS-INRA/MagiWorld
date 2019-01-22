@@ -9,7 +9,7 @@ public class Focus implements SpecialAttack {
      * @param target unused here
      */
     @Override
-    public void performSpecialcAttack(Character attacker, Character target) {
+    public void performSpecialAttack(Character attacker, Character target) {
         int agilityGain = attacker.getLevel()/2;
         attacker.setAgility(attacker.getAgility()+agilityGain);
     }
