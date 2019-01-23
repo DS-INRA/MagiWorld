@@ -21,7 +21,7 @@ public class SwordHit implements BasicAttack {
                 + this.toString()
                 + " et inflige "
                 + damages
-                + " dégats."
+                + " dégâts."
         );
         target.takeDamages(damages);
     }
