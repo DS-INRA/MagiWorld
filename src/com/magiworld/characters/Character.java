@@ -53,7 +53,6 @@ public abstract class Character{
     public String getName() { return name; }
 
     // SETTERS
-
     public void setCurrentHealth(int currentHealth) { this.currentHealth = currentHealth; }
     public void setStrength(int strength) { this.strength = strength; }
     public void setAgility(int agility) { this.agility = agility; }
