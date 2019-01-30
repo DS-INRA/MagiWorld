@@ -31,6 +31,10 @@ public abstract class Character{
         this.isdead = false;
     }
 
+    /**
+     * Provides a short description of the character
+     * @return name and attributes of the character
+     */
     @Override
     public String toString() {
         return this.name
@@ -79,8 +83,9 @@ public abstract class Character{
      */
     public void takeDamages(int damages){
         this.currentHealth = this.currentHealth - damages;
-        if (this.currentHealth <= 0)
+        if (this.currentHealth <= 0){
             this.isdead = true;
-        System.out.println(this.getName()+" est mort");
+            System.out.println(this.getName()+" est mort");
+        }
     }
 }
