@@ -51,12 +51,14 @@ public abstract class Character{
     public int getLevel() { return level; }
     public int getMaxHealth() { return maxHealth; }
     public String getName() { return name; }
+    public boolean getIsDead() {return isdead;}
 
     // SETTERS
     public void setCurrentHealth(int currentHealth) { this.currentHealth = currentHealth; }
     public void setStrength(int strength) { this.strength = strength; }
     public void setAgility(int agility) { this.agility = agility; }
     public void setIntelligence(int intelligence) { this.intelligence = intelligence; }
+    public void setIsdead(boolean isdead) {this.isdead = isdead;};
 
     // OTHER METHODS
     /**
