@@ -14,8 +14,6 @@ public class Main {
 
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        Character playerOne = null;
-        Character playerTwo = null;
         Fight fight = new Fight();
         fight.start("Joueur 1", "Joueur 2");
         // New game proposal
