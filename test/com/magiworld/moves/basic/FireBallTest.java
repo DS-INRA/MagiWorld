@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FireBallTest {
-    public BasicAttack fireBall = new FireBall();
     public Character attacker = new Mage("launcher", 10, 0, 0, 10);
     private Character target = new Mage("launcher", 10, 0, 0, 10);
 

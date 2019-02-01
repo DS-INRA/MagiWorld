@@ -35,7 +35,7 @@ class CharacterTest {
     @Test
     public void Given_MoreDamagesThanHealth_When_TakeDamagesIsRun_Then_CharacterDies(){
         testMage.takeDamages(666);
-        assertEquals(true, testMage.isdead);
+        assertTrue(testMage.isdead);
     }
 
     // Testing attack

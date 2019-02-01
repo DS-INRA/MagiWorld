@@ -3,10 +3,6 @@ package com.magiworld.characters;
 import com.magiworld.moves.basic.BasicAttack;
 import com.magiworld.moves.special.SpecialAttack;
 
-import java.util.HashMap;
-import java.util.InputMismatchException;
-import java.util.Map;
-import java.util.Scanner;
 
 public abstract class Character{
     protected String name;
@@ -62,7 +58,7 @@ public abstract class Character{
     public void setStrength(int strength) { this.strength = strength; }
     public void setAgility(int agility) { this.agility = agility; }
     public void setIntelligence(int intelligence) { this.intelligence = intelligence; }
-    public void setIsdead(boolean isdead) {this.isdead = isdead;};
+    public void setIsdead(boolean isdead) {this.isdead = isdead;}
 
     // OTHER METHODS
     /**

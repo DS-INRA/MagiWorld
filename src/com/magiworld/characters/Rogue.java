@@ -1,9 +1,7 @@
 package com.magiworld.characters;
 
-import com.magiworld.moves.basic.BasicAttack;
 import com.magiworld.moves.basic.BowShot;
 import com.magiworld.moves.special.Focus;
-import com.magiworld.moves.special.SpecialAttack;
 
 public class Rogue extends Character {
 

@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SwordHitTest {
-    public BasicAttack fireBall = new FireBall();
     public Character attacker = new Warrior("launcher", 10, 10, 0, 0);
     private Character target = new Mage("launcher", 10, 0, 0, 10);
 

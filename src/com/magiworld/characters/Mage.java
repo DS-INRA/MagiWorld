@@ -1,9 +1,7 @@
 package com.magiworld.characters;
 
-import com.magiworld.moves.basic.BasicAttack;
 import com.magiworld.moves.basic.FireBall;
 import com.magiworld.moves.special.Healing;
-import com.magiworld.moves.special.SpecialAttack;
 
 public class Mage extends Character {
 
